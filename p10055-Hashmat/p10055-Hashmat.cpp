@@ -4,19 +4,19 @@
 using std::cin;
 using std::cout;
 using std::endl;
-using std::ifstream;
+// using std::ifstream;
 int main()
 {
-    ifstream infile;
-    infile.open("uDebug.txt");
+    // ifstream infile;
+    // infile.open("uDebug.txt");
     int has = 0;
     int opp = 0;
 
-    while (infile >> has >> opp)
+    while (cin >> has >> opp)
     {
         cout << abs(opp - has) << endl;
     }
     cout << endl;
-    infile.close();
+    // infile.close();
     return 0;
 }
