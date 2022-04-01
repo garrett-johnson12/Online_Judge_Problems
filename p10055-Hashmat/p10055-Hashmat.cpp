@@ -11,11 +11,12 @@ int main()
     infile.open("uDebug.txt");
     int has = 0;
     int opp = 0;
-    
+
     while (infile >> has >> opp)
     {
         cout << abs(opp - has) << endl;
     }
+    cout << endl;
     infile.close();
     return 0;
 }
