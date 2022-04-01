@@ -1,6 +1,6 @@
 // Online Judge Problem: p10055 - Hashmat the Brave Warrior
 #include <iostream>
-#include <fstream>
+// #include <fstream>
 using std::cin;
 using std::cout;
 using std::endl;
